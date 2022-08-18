@@ -1,0 +1,141 @@
+{
+  "settings": [{
+    "url": "https://alexlozano.limesurvey.net/452258",
+    "items": [
+      {
+        "tag": "button",
+        "action": "check",
+        "input": true,
+        "xpath": "[@id=\"ls-button-submit\"][@type=\"submit\"]"
+      },
+      {
+        "tag": "textarea",
+        "action": "text",
+        "input": "Hola",
+        "xpath": "[@id=\"answer452258X1X1\"]"
+      },
+      {
+        "tag": "select",
+        "action": "select",
+        "input": 1,
+        "xpath": "[@id=\"answer452258X1X2\"]"
+      },
+      {
+        "tag": "input",
+        "action": "check",
+        "type": "checkbox",
+        "input": true,
+        "xpath": "[@id=\"answer452258X1X3SQ001\"]"
+      },
+      {
+        "tag": "input",
+        "action": "check",
+        "type": "radio",
+        "input": true,
+        "xpath": ""
+      },
+      {
+        "tag": "input",
+        "action": "text",
+        "type": "text",
+        "input": "Mundo",
+        "xpath": "[@id=\"answer452258X1X7SQ001\"]"
+      }
+    ]
+  },
+    {
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSe-K-BXchYBdcjPYvZHvEzAW69Ajd24HzVDGIWqsb101MEsUQ/viewform?usp=sf_link",
+    "items": [
+      {
+        "tag": "input",
+        "action": "text",
+        "type": "text",
+        "input": "Guty",
+        "xpath": "[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input"
+      },
+      {
+        "tag": "select",
+        "action": "select",
+        "input": "Un vato loco",
+        "xpath": "[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]/textarea"
+      },
+      {
+        "action": "check",
+        "input": true,
+        "type": "radio",
+        "xpath": "[@id=\"i13\"]/div[3]/div"
+      },
+      {
+        "action": "check",
+        "input": false,
+        "type": "radio",
+        "xpath": "[@id=\"i16\"]/div[3]/div"
+      },
+      {
+        "action": "check",
+        "input": true,
+        "type": "checkbox",
+        "xpath": "[@id=\"i24\"]/div[2]"
+      },
+      {
+        "action": "check",
+        "input": true,
+        "type": "checkbox",
+        "xpath": "[@id=\"i27\"]/div[2]"
+      },
+      {
+        "action": "check",
+        "input": true,
+        "type": "checkbox",
+        "xpath": "[@id=\"i30\"]/div[2]"
+      },
+      {
+        "tag": "input",
+        "action": "check",
+        "input": true,
+        "type": "text",
+        "xpath": "[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input"
+      },
+      {
+        "action": "check",
+        "input": true,
+        "xpath": "[@id=\"mG61Hd\"]/div[2]/div/div[3]/div[1]/div[1]/div/span/span"
+      }
+    ]
+  },
+    {
+    "url": "https://alexlozano.limesurvey.net/452258",
+    "items": [
+      {
+        "tag": "textarea",
+        "action": "textarea",
+        "input": "Hola",
+        "xpath": "[@id=\"answer452258X1X1\"]"
+      },
+      {
+        "tag": "select",
+        "action": "select",
+        "input": "1",
+        "xpath": "[@id=\"answer452258X1X2\"]"
+      },
+      {
+        "tag": "input",
+        "action": "checkbox",
+        "input": true,
+        "xpath": "[@id=\"answer452258X1X3SQ001\"]"
+      },
+      {
+        "tag": "input",
+        "action": "radio",
+        "input": true,
+        "xpath": ""
+      },
+      {
+        "tag": "input",
+        "action": "text",
+        "input": "Mundo",
+        "xpath": "[@id=\"answer452258X1X7SQ001\"]"
+      }
+    ]
+  }
+]}
