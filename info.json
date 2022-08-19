@@ -93,7 +93,7 @@
                     "action": "text",
                     "type": "text",
                     "input": "Guty",
-                    "abs_xpath": "//input[@class=\"whsOnd zHQkBf\"]"
+                    "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input"
                 },
                 {
                     "tag": "textarea",
@@ -139,6 +139,23 @@
                     "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input"
                 },
                 {
+                    "tag": "input",
+                    "type": "text",
+                    "action": "text",
+                    "input": "ght159hdztorreslol@gmail.com",
+                    "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[5]/div/div/div[2]/div/div[1]/div/div[1]/input"
+                },
+                {
+                    "action": "check",
+                    "input": true,
+                    "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div[1]/div[1]/div[1]/span"
+                },
+                {
+                    "action": "check",
+                    "input": true,
+                    "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div[2]/div[3]/span"
+                },
+                {
                     "action": "check",
                     "input": true,
                     "abs_xpath": "//*[@id=\"mG61Hd\"]/div[2]/div/div[3]/div[1]/div[1]/div/span/span"
@@ -146,38 +163,62 @@
             ]
         },
         {
-            "url": "https://alexlozano.limesurvey.net/452258",
+            "url": "https://es.surveymonkey.com/r/MJJS7MF",
             "items": [
+            {
+                "action": "check",
+                "input": true,
+                "abs_xpath": "//*[@id=\"question-field-86453972\"]/fieldset/div/div/div[1]/div/label"
+            },
+            {
+                "action": "check",
+                "input": true,
+                "abs_xpath": "//*[@id=\"question-field-86453972\"]/fieldset/div/div/div[2]/div/label"
+            },
                 {
-                    "tag": "textarea",
-                    "action": "textarea",
-                    "input": "Hola",
-                    "xpath": "[@id=\"answer452258X1X1\"]"
-                },
-                {
-                    "tag": "select",
-                    "action": "select",
-                    "input": "1",
-                    "xpath": "[@id=\"answer452258X1X2\"]"
-                },
-                {
-                    "tag": "input",
-                    "action": "checkbox",
-                    "input": true,
-                    "xpath": "[@id=\"answer452258X1X3SQ001\"]"
-                },
-                {
-                    "tag": "input",
-                    "action": "radio",
-                    "input": true,
-                    "xpath": ""
-                },
-                {
-                    "tag": "input",
-                    "action": "text",
-                    "input": "Mundo",
-                    "xpath": "[@id=\"answer452258X1X7SQ001\"]"
-                }
+                "tag": "select",
+                "action": "select",
+                "input": 1,
+                "xpath": "[@id=\"86454024\"]"
+            },
+            {
+                "action": "check",
+                "input": true,
+                "abs_xpath": "//*[@id=\"86454071_678872407_label\"]"
+            },
+            {
+                "action": "check",
+                "input": false,
+                "xpath": "//*[@id=\"86454071_678872408_label\"]"
+            },
+            {
+                "tag": "input",
+                "action": "text",
+                "type": "text",
+                "input": "Mundo",
+                "xpath": "[@id=\"86454360\"]"
+            },
+            {
+                "tag": "input",
+                "action": "text",
+                "type": "text",
+                "input": "No",
+                "xpath": "[@id=\"86454411\"]"
+            },
+            {
+                "tag": "input",
+                "action": "text",
+                "type": "text",
+                "input": "Que te importa",
+                "abs_xpath": "//*[@id=\"86454425\"]"
+            },
+            {
+                "tag": "button",
+                "action": "check",
+                "type": "submit",
+                "input": true,
+                "abs_xpath": "//*[@id=\"patas\"]/main/article/section/form/div[2]/button"
+            }
             ]
         }
     ]
